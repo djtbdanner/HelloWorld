@@ -23,7 +23,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 }
                 HomeComponent = __decorate([
                     core_1.Component({
-                        templateUrl: '/hello/app/home/home.component.html'
+                        templateUrl: '/app/home/home.component.html'
                     }), 
                     __metadata('design:paramtypes', [])
                 ], HomeComponent);

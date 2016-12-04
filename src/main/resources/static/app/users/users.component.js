@@ -1,4 +1,4 @@
-System.register(['angular2/core', './users.http.service.js', 'angular2/http', 'angular2/router', '../navbar/spinner.component.js'], function(exports_1, context_1) {
+System.register(['angular2/core', './users.http.service', 'angular2/http', 'angular2/router', '../navbar/spinner.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -44,7 +44,7 @@ System.register(['angular2/core', './users.http.service.js', 'angular2/http', 'a
                 };
                 UsersComponent = __decorate([
                     core_1.Component({
-                        templateUrl: '/hello/app/users/users.component.html',
+                        templateUrl: 'app/users/users.component.html',
                         providers: [http_1.HTTP_PROVIDERS, users_http_service_1.UsersHttpService],
                         directives: [router_1.ROUTER_DIRECTIVES, spinner_component_1.SpinnerComponent]
                     }), 

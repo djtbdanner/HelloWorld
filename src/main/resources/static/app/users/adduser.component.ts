@@ -9,7 +9,7 @@ import {RouteParams} from 'angular2/router';
 import {SpinnerComponent} from '../navbar/spinner.component'
 
 @Component({
-    templateUrl: '/hello/app/users/adduser.component.html',
+    templateUrl: '/app/users/adduser.component.html',
     styles: [".ng-touched.ng-invalid	{border:	1px	solid	red;}"],
     providers: [HTTP_PROVIDERS, UsersHttpService],
     directives: [SpinnerComponent]

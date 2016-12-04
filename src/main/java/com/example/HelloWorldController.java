@@ -15,6 +15,12 @@ public class HelloWorldController {
 	public String greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
 
 		log.info("Saying hello to " + (name == null ? "World" : name));
-		return " Hello " + name;
+		
+		return "<body style='background-color:green;'>"
+				+ "<span style='color:yellow;'> "
+				+ "Hello " + name + "<br><h1> This is as a Spring Boot application deployed to AWS!</h1>"
+				+"</span>"
+				+"<div>"
+				+"<a href='http://calculator.us-east-1.elasticbeanstalk.com'>Link to calculator.</a>";
 	}
 }

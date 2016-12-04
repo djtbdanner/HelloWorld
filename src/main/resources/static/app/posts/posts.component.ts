@@ -9,7 +9,7 @@ import {User} from '../users/user';
 import {Observable} from 'rxjs/Rx';
 
 @Component({
-    templateUrl: '/hello/app/posts/posts.component.html',
+    templateUrl: '/app/posts/posts.component.html',
     providers: [HTTP_PROVIDERS, PostsHttpService, UsersHttpService],
     directives: [SpinnerComponent],
     styles: [`

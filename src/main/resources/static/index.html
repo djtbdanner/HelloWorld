@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <base href="/">
+  <base href="/hello">
   <title>ngProject</title>
 
   <link rel="stylesheet" href="/hello/app/assets/styles/bootstrap.css">
@@ -34,15 +34,15 @@
   <!-- 2. Configure SystemJS -->
   <script>
       System.config({
-        packages: {        
+         packages: {        
           app: {
             format: 'register',
             defaultExtension: 'js'
           }
         }
       });
-      System.import('hello/app/boot.js')
-            .then(null, console.error.bind(console));
+      System.import('app/boot').then(null, console.error.bind(console));
+      alert()
     </script>
 
 </head>

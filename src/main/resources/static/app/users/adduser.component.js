@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/common', './emailValidator.js', 'angular2/http', 'angular2/router', './users.http.service.js', './user.js', '../navbar/spinner.component.js'], function(exports_1, context_1) {
+System.register(['angular2/core', 'angular2/common', './emailValidator', 'angular2/http', 'angular2/router', './users.http.service', './user', '../navbar/spinner.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -107,7 +107,7 @@ System.register(['angular2/core', 'angular2/common', './emailValidator.js', 'ang
                 };
                 AddUserComponent = __decorate([
                     core_1.Component({
-                        templateUrl: '/hello/app/users/adduser.component.html',
+                        templateUrl: '/app/users/adduser.component.html',
                         styles: [".ng-touched.ng-invalid	{border:	1px	solid	red;}"],
                         providers: [http_1.HTTP_PROVIDERS, users_http_service_1.UsersHttpService],
                         directives: [spinner_component_1.SpinnerComponent]

@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/http', './posts.http.service.js', '../users/users.http.service.js', '../navbar/spinner.component.js', 'rxjs/Rx'], function(exports_1, context_1) {
+System.register(['angular2/core', 'angular2/http', './posts.http.service', '../users/users.http.service', '../navbar/spinner.component', 'rxjs/Rx'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -95,7 +95,7 @@ System.register(['angular2/core', 'angular2/http', './posts.http.service.js', '.
                 };
                 PostsComponent = __decorate([
                     core_1.Component({
-                        templateUrl: '/hello/app/posts/posts.component.html',
+                        templateUrl: '/app/posts/posts.component.html',
                         providers: [http_1.HTTP_PROVIDERS, posts_http_service_1.PostsHttpService, users_http_service_1.UsersHttpService],
                         directives: [spinner_component_1.SpinnerComponent],
                         styles: ["\n        .posts li { cursor: default; }\n        .posts li:hover { background: #ecf0f1; } \n        .list-group-item.active, \n        .list-group-item.active:hover, \n        .list-group-item.active:focus { \n            background-color: #ecf0f1;\n            border-color: #ecf0f1; \n            color: #2c3e50;\n        }\n        .thumbnail{border-radius:100%;}\n    "],
