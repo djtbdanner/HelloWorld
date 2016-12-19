@@ -39,7 +39,9 @@ public class HelloWorldController {
 		sb.append("Hello " + name);
 		sb.append("<br><h1> This is as a Spring Boot application deployed to " + server + "</h1>");
 
-		sb.append("<a class=\"x\" href=\"http://calculator.us-east-1.elasticbeanstalk.com\" target=\"_blank\">Link to calculator.</a> ");
+		sb.append("<a class=\"x\" href=\"http://calculator.us-east-1.elasticbeanstalk.com\" target=\"_blank\">Link to calculator.</a> <br/>");
+		sb.append("<a class=\"x\" href=\"http://locator.us-east-1.elasticbeanstalk.com\" target=\"_blank\">Link to locator.</a> <br/>");
+		sb.append("<a class=\"x\" href=\"https://locator.us-east-1.elasticbeanstalk.com\" target=\"_blank\">(SSL with cert signed by me )Link to calculator.</a> <br />");
 		sb.append("<h2> System Properties...</h2>");
 		sb.append(getSystemPropertiesList() + "</span>");
 		
